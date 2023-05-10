@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forteXpert</title>
+    <link rel="stylesheet" href="custom.js">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="foto/favicon.ico">
+
+</head>
+<body>
+    <div class="container">
+     <div id="logo"><img src="foto/logo.png">
+       <div class="slogan"> <h6 >"Borsanın nabzını bizimle tutun, kazancınızı arttırın"</h6></div>
+      
+    </div>
+     
+     <h3><i class="fa-solid fa-dollar-sign"></i></h3>
+     <h3><i class="fa-solid fa-euro-sign"></i></h3>
+     <h3><i class="fa-solid fa-sterling-sign"></i></h3>
+     <h3><i class="fa-solid fa-turkish-lira-sign"></i></h3>
+
+    </div>
+
+    
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/markets/" ></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols"= [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "SP 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      }
+    ],
+    "showSymbolLogo"= true,
+    "colorTheme"= "light",
+    "isTransparent"= false,
+    "displayMode"= "adaptive",
+    "locale"= "tr"
+  }
+    </script>
+</div>
+  <!-- TradingView Widget END -->
+ 
+  
+
+    
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+    "colorTheme"= "light",
+    "dateRange"= "12M",
+    "showChart"= true,
+    "locale"= "tr",
+    "largeChartUrl"= "",
+    "isTransparent"= false,
+    "showSymbolLogo"= true,
+    "showFloatingTooltip"= false,
+    "width"= "400",
+    "height"= "660",
+    "plotLineColorGrowing"= "rgba(41, 98, 255, 1)",
+    "plotLineColorFalling"= "rgba(41, 98, 255, 1)",
+    "gridLineColor"= "rgba(240, 243, 250, 0)",
+    "scaleFontColor"= "rgba(106, 109, 120, 1)",
+    "belowLineFillColorGrowing"= "rgba(41, 98, 255, 0.12)",
+    "belowLineFillColorFalling"= "rgba(41, 98, 255, 0.12)",
+    "belowLineFillColorGrowingBottom"= "rgba(41, 98, 255, 0)",
+    "belowLineFillColorFallingBottom"= "rgba(41, 98, 255, 0)",
+    "symbolActiveColor"= "rgba(41, 98, 255, 0.12)",
+    "tabs"= [
+      {
+        "title": "Endeks",
+        "symbols": [
+          {
+            "s": "FX:USDTRY"
+          },
+          {
+            "s": "FX:EURUSD"
+          },
+          {
+            "s": "OANDA:USDTRY"
+          },
+          {
+            "s": "FX:AUDUSD"
+          },
+          {
+            "s": "SKILLING:USDJPY"
+          },
+          {
+            "s": "EIGHTCAP:GBPUSD"
+          }
+        ],
+        "originalTitle": "Indices"
+      },
+      {
+        "title": "Vadeli",
+        "symbols": [
+          {
+            "s": "CME_MINI:ES1!",
+            "d": "S&P 500"
+          },
+          {
+            "s": "CME:6E1!",
+            "d": "Euro"
+          },
+          {
+            "s": "COMEX:GC1!",
+            "d": "Gold"
+          },
+          {
+            "s": "NYMEX:CL1!",
+            "d": "Crude Oil"
+          },
+          {
+            "s": "NYMEX:NG1!",
+            "d": "Natural Gas"
+          },
+          {
+            "s": "CBOT:ZC1!",
+            "d": "Corn"
+          }
+        ],
+        "originalTitle": "Futures"
+      },
+      {
+        "title": "Tahvil",
+        "symbols": [
+          {
+            "s": "CME:GE1!",
+            "d": "Eurodollar"
+          },
+          {
+            "s": "CBOT:ZB1!",
+            "d": "T-Bond"
+          },
+          {
+            "s": "CBOT:UB1!",
+            "d": "Ultra T-Bond"
+          },
+          {
+            "s": "EUREX:FGBL1!",
+            "d": "Euro Bund"
+          },
+          {
+            "s": "EUREX:FBTP1!",
+            "d": "Euro BTP"
+          },
+          {
+            "s": "EUREX:FGBM1!",
+            "d": "Euro BOBL"
+          }
+        ],
+        "originalTitle": "Bonds"
+      },
+      {
+        "title": "Döviz",
+        "symbols": [
+          {
+            "s": "FX:EURUSD",
+            "d": "EUR/USD"
+          },
+          {
+            "s": "FX:GBPUSD",
+            "d": "GBP/USD"
+          },
+          {
+            "s": "FX:USDJPY",
+            "d": "USD/JPY"
+          },
+          {
+            "s": "FX:USDCHF",
+            "d": "USD/CHF"
+          },
+          {
+            "s": "FX:AUDUSD",
+            "d": "AUD/USD"
+          },
+          {
+            "s": "FX:USDCAD",
+            "d": "USD/CAD"
+          }
+        ],
+        "originalTitle": "Forex"
+      }
+    ]
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+  <div class="canli">
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/stQGLgYgMKk"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="canli">
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/27JU9HL990g" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="right">
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/markets/currencies/forex-heat-map/" rel="noopener" target="_blank"><span class="blue-text">Forex ısı haritası</span></a> TradingView tarafından</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-heat-map.js" async>
+    {
+    "width"= 770,
+    "height"= 400,
+    "currencies"= [
+      "EUR",
+      "USD",
+      "JPY",
+      "GBP",
+      "CHF",
+      "AUD",
+      "CAD",
+      "NZD",
+      "TRY"
+    ],
+    "isTransparent"= false,
+    "colorTheme"= "light",
+    "locale"= "tr"
+  }
+    </script>
+  </div>
+</div>
+  <!-- TradingView Widget END -->
+   
+    <script src="custom.js"></script>
+</body>
+</html>
